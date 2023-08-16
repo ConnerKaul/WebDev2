@@ -1,0 +1,185 @@
+body{
+		font-family: Arial, Helvetica, sans-serif;
+		display: block;
+		width: 800px;
+		background-color: white;
+		border: black;
+		box-shadow: 6px 7px 8px 9px black;
+		margin: auto;
+}
+
+footer{
+		border: 1 1 1 1 black;
+		border-top: 3px solid black;
+		padding: 12px;
+		background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+		clear: both;
+	
+}
+
+header{
+		border-bottom: 3px solid black;
+		background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+		padding 10px;
+		
+}
+
+aside{
+		float: left;
+		width: 160px;
+		padding: 10px 0;
+	
+}
+
+section{
+		float: right;
+		padding: 20px 48px 20px 20px;
+		width: 570px;
+	
+}
+
+header img {
+	float: left;
+}
+
+p, h1, h2, h3{
+		margin-right: 7%;
+}
+
+header h2 {
+	font-size: 200%;
+	margin-left: 7%;
+}
+
+header h3 {
+	font-size: 175%;
+	margin-left: 7%;
+	
+}
+
+html{
+		background-image: url("../images/bats.gif");
+	
+}
+
+p {
+	font-size: 110%;
+	margin-left: 7%;
+}
+
+h1 {
+	font-size: 150%;
+	margin-left: 7%;
+}
+
+h2 {
+	font-size: 140%;
+	margin-left: 7%;
+}
+
+h3 {
+	line-height 130%;
+	margin-left: 7%;
+}
+
+main h1 {
+	font-size: 150%;
+	margin-left: 7%;
+}
+
+main h1:first-letter {
+	font-size: 200%;
+}
+
+aside ul li{
+	margin-left: 2%;
+}
+
+ul li a {
+	text-decoration: underline;
+}
+
+a:visited, a:link {
+	color: orange;
+}
+
+a:hover, a:focus {
+	color: green;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 80%;
+}
+
+#nav_bar ul{
+		list-style-type: none;
+		position: relative;
+		padding: 0;
+		margin: 0;
+		
+}
+
+#nav_bar ul li{
+		float: left;
+}
+
+#nav_bar ul li a{
+		text-align: center;
+		display: block;
+		width: 160px;
+		text-decoration: none;
+		background-color: black;
+		color: white;
+		
+}
+
+#nav_bar ul li a.current{
+		color: orange;
+}
+
+#nav_bar ul ul{
+		display: none;
+		position: absolute;
+		top: 100%;
+}
+
+#nav_bar ul ul li{
+		float: none;
+}
+
+#nav_bar ul li:hover > ul{
+		display: block;
+}
+
+#nav_bar > ul::after{
+		content: "";
+		display: block;
+		clear: both;
+}
+
+#nav_bar ul li a:hover, #nav_menu ul li a:focus {
+		background-color: gray;
+}
+
+
+#vertical_nav ul {
+		list-style-type: none;
+		margin-bottom: 1.5em;
+}
+
+#vertical_nav ul li{
+		width: 100px;
+		margin-bottom: .5em;
+		border: 1px solid black;
+}
+
+#vertical_nav ul li a {
+		display: block;
+		padding: .5em 0 .5em .5em;
+		text-decoration: none;
+		font-weight: bold;
+		color: black;
+		background-color: orange;
+}
+
