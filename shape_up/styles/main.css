@@ -1,0 +1,133 @@
+body{
+		font-family: Arial, Helvetica, sans-serif;
+		display: block;
+		width: 900px;
+		border: steelblue;
+		box-shadow: 6px 7px 8px 9px black;
+		margin: auto;
+}
+
+header h2 {
+	font-size: 200%;
+	color: steelblue;
+	text-shadow: 2px 2px 2px steelblue;
+	font-style: italic;
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	text-indent: 30px;
+}
+
+header img {
+	float: left;
+}
+
+header {
+	border-bottom: 3px solid steelblue;
+	background-image: linear-gradient(0deg, steelblue 0%, white 100%);
+}
+
+main h3 {
+	color: maroon;
+}
+
+section{
+		float: right;
+		width: 610px;
+	
+}
+
+section a:visited, section a:link {
+	color: maroon;
+}
+
+aside{
+		float: left;
+		width: 245px;
+	
+}
+
+aside h2{
+	color: maroon;
+}
+
+aside a:visited, aside a:link {
+	color: steelblue;
+	text-decoration: none;
+	
+}
+
+aside ul li a{
+	line-height: 155%;
+}
+
+footer p {
+	text-align: center;
+	font-size: 80%;
+	color: white;
+	padding: 1em 0;
+}
+
+footer {
+	background-color: steelblue;
+	clear: both;
+
+}
+
+#nav_bar{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+}
+
+#nav_bar ul{
+		list-style-type: none;
+		position: relative;
+		padding: 0;
+		margin: 0;
+		
+}
+
+#nav_bar ul li{
+		float: left;
+}
+
+#nav_bar ul li a{
+		line-height: 175%;
+		text-align: center;
+		display: block;
+		width: 180px;
+		text-decoration: none;
+		background-color: steelblue;
+		color: white;
+		
+}
+
+#nav_bar ul li a.current{
+		color: black;
+}
+
+#nav_bar ul ul{
+		display: none;
+		position: absolute;
+		top: 100%;
+}
+
+#nav_bar ul ul li{
+		float: none;
+}
+
+#nav_bar ul li:hover > ul{
+		display: block;
+}
+
+#nav_bar > ul::after{
+		content: "";
+		display: block;
+		clear: both;
+}
+
+#nav_bar ul li a:hover, #nav_menu ul li a:focus {
+		background-color: lightsteelblue;
+}
